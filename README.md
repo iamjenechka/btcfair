@@ -23,18 +23,18 @@ To get started with BTCFair, follow the steps below:
 
 1. Clone the repository:
 
-`bash
+```bash
 
 git clone https://github.com/iamjenechka/btc-fair.git
 cd btc-fair
-`
+```
 
 2. Install the dependencies:
 
 
-`bash
+```bash
 pip install -r requirements.txt
-`
+```
 
 
 3. Set up API keys for the exchanges you want to track. You can sign up for the necessary APIs (e.g., Coinbase API) to get your key and place it in the configuration file.
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ## Example Output
 
-`bash 
+```bash 
 Trader Price: $58,500
 Coinbase Price: $55,000
 Price Difference: 6.36% markup
@@ -63,7 +63,7 @@ Price Difference: 6.36% markup
 Withdrawal Fees:
 Trader: 10% withdrawal fee
 Coinbase: 2.5% withdrawal fee
-`
+```
 
 
 ## Contributing
